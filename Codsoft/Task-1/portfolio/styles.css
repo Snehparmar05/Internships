@@ -1,0 +1,438 @@
+.exp {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkturquoise;
+}
+
+.exp th {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.exp table {
+    font-size: 15px;
+    padding: 10px;
+    width: 70%;
+}
+
+.orgpic {
+    width: 100px;
+}
+
+.orgpic img {
+    width: 100px;
+    height: 100px;
+}
+
+marquee {
+    font-size: 20px;
+}
+
+*/ body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main-outer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+center {
+    text-align: center;
+}
+
+br {
+    margin-bottom: 10px;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+}
+
+.navbar-mainlogo img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-mainhead {
+    flex: 1;
+}
+
+.navbar-mainsocials img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.navbar-mainsocials a:hover img {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+/* Name, Bio, and Profile Picture */
+
+.namepfpbio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.namebio {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.namebio span {
+    line-height: 1.5;
+}
+
+.pfp img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* Maintain aspect ratio */
+}
+
+
+/* Contact Details */
+
+.contactdetails table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.contactdetails table th,
+.contactdetails table td {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+
+
+/* Educational Details */
+
+.ejukesan table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.ejukesan table th,
+.ejukesan table td {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+
+.ejukesan table th.sno,
+.ejukesan table th.cour {
+    width: 10%;
+}
+
+.ejukesan table th.percentage,
+.ejukesan table th.year {
+    width: 15%;
+}
+
+
+/* Skills and Projects */
+
+.skillproj {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill,
+.proj {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.skill span,
+.proj span {
+    line-height: 1.5;
+}
+
+
+/* Resume */
+
+.resume iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+.resume a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.resume a:hover {
+    background-color: #eee;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+/* Marquee */
+
+marquee {
+    color: #333;
+    font-weight: bold;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+*/
+/* styles.css */
+
+
+/* General styling for body */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* Styling for the navigation bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar-mainlogo img,
+.navbar-mainsocials img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-mainlogo img:hover,
+.navbar-mainsocials img:hover {
+    transform: scale(1.1);
+}
+
+.navbar-mainhead h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+/* Styling for the main content */
+
+.main-outer {
+    padding: 20px;
+}
+
+.namepfpbio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.namepfpbio:hover {
+    transform: scale(1.02);
+}
+
+.namebio span {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.pfp img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pfp img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Styling for contact details */
+
+.contactdetails {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contactdetails:hover {
+    transform: scale(1.02);
+}
+
+.contactdetails table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contactdetails td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.contactdetails h1 {
+    margin-top: 0;
+}
+
+
+/* Styling for educational details */
+
+.ejukesan {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ejukesan:hover {
+    transform: scale(1.02);
+}
+
+.ejukesan table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ejukesan th,
+.ejukesan td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.ejukesan h1 {
+    margin-top: 0;
+}
+
+
+/* Styling for skills and projects */
+
+.skillproj {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.skill,
+.proj {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill:hover,
+.proj:hover {
+    transform: scale(1.02);
+}
+
+.skill h1,
+.proj h1 {
+    margin-top: 0;
+}
+
+
+/* Styling for resume section */
+
+.resume {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.resume:hover {
+    transform: scale(1.02);
+}
+
+.resume iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.resume iframe:hover {
+    transform: scale(1.01);
+}
+
+.resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.resume a:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+
+/* Styling for marquee */
+
+.credit {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
